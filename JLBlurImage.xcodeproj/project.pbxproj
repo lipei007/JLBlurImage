@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		42D0BF081E63D9EF0059F57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF071E63D9EF0059F57B /* main.m */; };
 		42D0BF0B1E63D9EF0059F57B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF0A1E63D9EF0059F57B /* AppDelegate.m */; };
-		42D0BF0E1E63D9EF0059F57B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF0D1E63D9EF0059F57B /* ViewController.m */; };
 		42D0BF111E63D9EF0059F57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D0BF0F1E63D9EF0059F57B /* Main.storyboard */; };
 		42D0BF131E63D9EF0059F57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D0BF121E63D9EF0059F57B /* Assets.xcassets */; };
 		42D0BF161E63D9EF0059F57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D0BF141E63D9EF0059F57B /* LaunchScreen.storyboard */; };
 		42D0BF211E63D9EF0059F57B /* JLBlurImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF201E63D9EF0059F57B /* JLBlurImageTests.m */; };
 		42D0BF2C1E63D9EF0059F57B /* JLBlurImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF2B1E63D9EF0059F57B /* JLBlurImageUITests.m */; };
+		42D0BF3B1E63DA090059F57B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF3A1E63DA090059F57B /* ViewController.m */; };
+		42D0BF3D1E63DA650059F57B /* Aktun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42D0BF3C1E63DA650059F57B /* Aktun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		42D0BF071E63D9EF0059F57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42D0BF091E63D9EF0059F57B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42D0BF0A1E63D9EF0059F57B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42D0BF0C1E63D9EF0059F57B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42D0BF0D1E63D9EF0059F57B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42D0BF101E63D9EF0059F57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42D0BF121E63D9EF0059F57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42D0BF151E63D9EF0059F57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,9 @@
 		42D0BF271E63D9EF0059F57B /* JLBlurImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLBlurImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D0BF2B1E63D9EF0059F57B /* JLBlurImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLBlurImageUITests.m; sourceTree = "<group>"; };
 		42D0BF2D1E63D9EF0059F57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D0BF391E63DA090059F57B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42D0BF3A1E63DA090059F57B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42D0BF3C1E63DA650059F57B /* Aktun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aktun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,11 @@
 		42D0BF051E63D9EF0059F57B /* JLBlurImage */ = {
 			isa = PBXGroup;
 			children = (
+				42D0BF3C1E63DA650059F57B /* Aktun.jpg */,
 				42D0BF091E63D9EF0059F57B /* AppDelegate.h */,
 				42D0BF0A1E63D9EF0059F57B /* AppDelegate.m */,
-				42D0BF0C1E63D9EF0059F57B /* ViewController.h */,
-				42D0BF0D1E63D9EF0059F57B /* ViewController.m */,
+				42D0BF391E63DA090059F57B /* ViewController.h */,
+				42D0BF3A1E63DA090059F57B /* ViewController.m */,
 				42D0BF0F1E63D9EF0059F57B /* Main.storyboard */,
 				42D0BF121E63D9EF0059F57B /* Assets.xcassets */,
 				42D0BF141E63D9EF0059F57B /* LaunchScreen.storyboard */,
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					42D0BF021E63D9EF0059F57B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XSA9NF85PE;
 						ProvisioningStyle = Automatic;
 					};
 					42D0BF1B1E63D9EF0059F57B = {
@@ -249,6 +253,7 @@
 				42D0BF161E63D9EF0059F57B /* LaunchScreen.storyboard in Resources */,
 				42D0BF131E63D9EF0059F57B /* Assets.xcassets in Resources */,
 				42D0BF111E63D9EF0059F57B /* Main.storyboard in Resources */,
+				42D0BF3D1E63DA650059F57B /* Aktun.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D0BF0E1E63D9EF0059F57B /* ViewController.m in Sources */,
+				42D0BF3B1E63DA090059F57B /* ViewController.m in Sources */,
 				42D0BF0B1E63D9EF0059F57B /* AppDelegate.m in Sources */,
 				42D0BF081E63D9EF0059F57B /* main.m in Sources */,
 			);
@@ -424,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XSA9NF85PE;
 				INFOPLIST_FILE = JLBlurImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mini1.JLBlurImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XSA9NF85PE;
 				INFOPLIST_FILE = JLBlurImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mini1.JLBlurImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
