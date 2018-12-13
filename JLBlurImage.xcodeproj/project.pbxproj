@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4219F1E021C22C5400D81DDC /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4219F1DF21C22C5400D81DDC /* UIImageEffects.m */; };
 		42D0BF081E63D9EF0059F57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF071E63D9EF0059F57B /* main.m */; };
 		42D0BF0B1E63D9EF0059F57B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0BF0A1E63D9EF0059F57B /* AppDelegate.m */; };
 		42D0BF111E63D9EF0059F57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D0BF0F1E63D9EF0059F57B /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4219F1DE21C22C5400D81DDC /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		4219F1DF21C22C5400D81DDC /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		42D0BF031E63D9EF0059F57B /* JLBlurImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLBlurImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D0BF071E63D9EF0059F57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42D0BF091E63D9EF0059F57B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		42D0BF051E63D9EF0059F57B /* JLBlurImage */ = {
 			isa = PBXGroup;
 			children = (
+				4219F1DE21C22C5400D81DDC /* UIImageEffects.h */,
+				4219F1DF21C22C5400D81DDC /* UIImageEffects.m */,
 				42D0BF3C1E63DA650059F57B /* Aktun.jpg */,
 				42D0BF091E63D9EF0059F57B /* AppDelegate.h */,
 				42D0BF0A1E63D9EF0059F57B /* AppDelegate.m */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4219F1E021C22C5400D81DDC /* UIImageEffects.m in Sources */,
 				42D0BF3B1E63DA090059F57B /* ViewController.m in Sources */,
 				42D0BF0B1E63D9EF0059F57B /* AppDelegate.m in Sources */,
 				42D0BF081E63D9EF0059F57B /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				42D0BF321E63D9EF0059F57B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D0BF331E63D9EF0059F57B /* Build configuration list for PBXNativeTarget "JLBlurImageTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				42D0BF351E63D9EF0059F57B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D0BF361E63D9EF0059F57B /* Build configuration list for PBXNativeTarget "JLBlurImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				42D0BF381E63D9EF0059F57B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -39,7 +39,7 @@
     // vImage
 //    UIImage *bluredImage = [self blurryImage:originImage withBlurLevel:0.9];
 //    self.imgView.image = bluredImage;
-//    
+//
     // visualEffect
 //    self.imgView.image = originImage;
 //    [self visualEffectView:self.imgView];
